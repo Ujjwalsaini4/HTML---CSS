@@ -167,6 +167,9 @@ header{
 /*features section*/
 .features-section{
     padding: 80px var(--padding-inline-section) 0;
+    background-image: url('blob.svg');
+    background-repeat: no-repeat;
+    background-position:center;
 }
 .features-header{
     text-align: center;
@@ -190,4 +193,63 @@ header{
 
 .card-logo{
     width: 60px;
+}
+
+/*big features section*/
+.big-feature-section{
+    padding: 30px 20px 0;
+}
+.feature-img img{
+    width: 500px;
+}
+.big-feature-container{
+    gap: 30px;
+}
+.feature-desc{
+    align-items: start;
+}
+ 
+/*example section*/
+.examples-header{
+    flex-direction: column;
+    gap: 20px;
+}
+.examples-area{
+    margin-block: 20px;
+    justify-content: space-between;
+}
+
+.examples-card{
+    width: 23%;
+    position: relative;
+    min-height: 300px;
+    background: black;
+}
+.examples-card:nth-child(1){
+    background: linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.5)) , url('https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.examples-card:nth-child(2){
+    background: linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.5)) , url('https://i.pinimg.com/564x/0f/15/3d/0f153dde7df00dcbf8674f820eba855a.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.examples-card:nth-child(3){
+    background: linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.5)) , url('https://i.pinimg.com/564x/2e/4a/cc/2e4acca6b73bdd8734a158764e433b1e.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.examples-card:nth-child(4){
+    background: linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.5)) , url('https://i.pinimg.com/564x/5f/c1/20/5fc1205b1a8f1826b6105c31c4d3a901.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card-text{
+    color: white;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
 }
