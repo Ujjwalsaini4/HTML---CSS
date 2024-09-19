@@ -19,7 +19,7 @@ h1{
     font-size: 3rem;
 }
 h3{
-    font-size: 2rem;
+    font-size: 1rem;
 }
 p{
     font-family: 'Roboto',sans-serif;
@@ -98,7 +98,7 @@ ul{
 .hover-link:hover{
     padding: 5px 10px;
     border-radius: 6px;
-    box-shadow: 0 0 100px var(--secondary-text-color);
+    box-shadow: 0 0 80px var(--secondary-text-color);
     color: var(--accent-color);
 }
 .primary-button:hover{
@@ -111,7 +111,7 @@ ul{
     color: var(--primary-text-color) !important;
     padding: 12px 24px;
     transition: .2s ease-out;
-    box-shadow: 0 0 80px var(--secondary-text-color);
+    box-shadow: 0 0 50px var(--secondary-text-color);
 }
 .secondary-button:hover{
     border-color: var(--accent-color);
@@ -173,4 +173,21 @@ header{
 }
 .features-header h2{
     margin-bottom: 20px;
+}
+
+.features-area{
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+.features-card{
+   flex-direction: column;
+   gap: 20px;
+   max-width: 30%;
+   margin-top: 40px;
+}
+
+.card-logo{
+    width: 60px;
 }
