@@ -315,26 +315,27 @@ header {
 
 /*---------footer----------*/
 
-footer{
+footer {
     padding-block: 80px;
     background-color: #ebf2fa;
 }
 
-.link-column{
+.link-column {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
 }
-.foot-contain{
+
+.foot-contain {
     align-items: flex-start;
     justify-content: space-between;
 }
 
-.hover-links{
+.hover-links {
     color: var(--primary-text-color);
 }
 
-.hover-links:hover{
+.hover-links:hover {
     color: var(--accent-color);
     transition: 0.2s ease-out;
 }
