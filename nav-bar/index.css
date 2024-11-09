@@ -1,7 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -10,11 +9,11 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background: #fefefe;
 }
 
-nav{
+nav {
     width: 100%;
     height: 80px;
     background: #11101b;
@@ -24,59 +23,61 @@ nav{
     padding: 0 100px;
 }
 
-.logo{
+.logo {
     font-size: 20px;
     font-weight: bold;
     color: #fefefe;
 }
 
-.nav-bar ul{
+.nav-bar ul {
     display: flex;
 }
 
-.nav-bar ul li a{
-   color: #fefefe;
-   font-size: 20px;
-   padding: 10px 25px;
-   border-radius: 50px;
-   transition: 0.2s;
-   margin: 0 5px;
+.nav-bar ul li a {
+    color: #fefefe;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
 }
 
-.nav-bar ul li a:hover{
+.nav-bar ul li a:hover {
     color: #11101b;
     background-color: #fefefe;
 }
 
-.nav-bar ul li a.active{
+.nav-bar ul li a.active {
     color: #11101b;
     background-color: #fefefe;
 }
 
-#click , #bar{
+#click,
+#bar {
     display: none;
 }
 
-@media screen and (max-width: 1320px){
-    nav{
+@media screen and (max-width: 1320px) {
+    nav {
         padding: 0 50px;
     }
 }
 
-@media screen and (max-width: 1100px){
-    nav{
+@media screen and (max-width: 1100px) {
+    nav {
         padding: 0 50px;
     }
 }
 
-@media screen and (max-width: 900px){
-   
-    #bar{
+@media screen and (max-width: 900px) {
+
+    #bar {
         display: block;
         color: #fefefe;
         font-size: 2rem;
     }
-    .nav-bar{
+
+    .nav-bar {
         position: absolute;
         top: 80px;
         left: 0%;
@@ -87,11 +88,13 @@ nav{
         transition: all 0.5s;
         overflow: hidden;
     }
-    #click:checked ~ .nav-bar {
+
+    #click:checked~.nav-bar {
         height: 400px;
-        
+
     }
-    .nav-bar ul{
+
+    .nav-bar ul {
         display: block;
         width: fit-content;
         margin: 80px auto 0 auto;
@@ -99,7 +102,7 @@ nav{
         transition: .5s;
     }
 
-    .nav-bar ul li{
+    .nav-bar ul li {
         margin-top: 25px;
     }
 }
